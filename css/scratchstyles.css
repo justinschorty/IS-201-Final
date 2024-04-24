@@ -1,0 +1,44 @@
+/*positioning styles*/
+h2{
+    text-decoration: underline;
+}
+
+.body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    background-color: antiquewhite;
+    padding: 10px;
+}
+.common {
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+position: absolute;
+}
+.top{
+top: 0px;
+left: 0px;
+right: 0px;
+text-align: center;
+text-decoration: underline;
+padding: 10px;
+}
+.middle{
+    top: 100px;
+    left: 0px;
+    right: 0px;
+}
+.bottom{
+    position:fixed;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 1;
+    text-align: center;
+    background-color:skyblue;
+    font-style: italic;
+    font-weight: bold;
+}
+.imgcenter{
+    display: block;
+    margin: auto;
+    border: 5px solid burlywood;
+}
